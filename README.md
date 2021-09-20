@@ -2,11 +2,11 @@ Hi,
 I'm Quang,
 This is the begining of my journey, to improve my skills and here is the my map :D
 
-- [x]Data Structure & Algorithm
-- []Advanced Reactjs
-- []Nodejs
-- []Docker
-- []AWS
+- [x] Data Structure & Algorithm
+- [] Advanced Reactjs
+- [] Nodejs
+- [] Docker
+- [] AWS
 
 I'll try to learn, commit my progress everyday, more or less, I will make it to become a marathon!
 
