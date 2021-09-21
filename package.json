@@ -1,0 +1,23 @@
+{
+  "name": "udemy-js-datastructure",
+  "version": "1.0.0",
+  "description": "Hi,   I'm Quang,   This is the begining of my journey, to improve my skills   and here is the my map :D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jam3sHalliday/data-structure-and-algorithm-with-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jam3sHalliday/data-structure-and-algorithm-with-js/issues"
+  },
+  "homepage": "https://github.com/Jam3sHalliday/data-structure-and-algorithm-with-js#readme",
+  "dependencies": {
+    "perf_hooks": "^0.0.1"
+  }
+}
