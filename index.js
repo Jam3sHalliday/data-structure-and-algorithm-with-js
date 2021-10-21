@@ -13,7 +13,7 @@
 //     if (!fc2[key]) return false;
 //     if (fc1[key] !== fc2[key]) return false;
 //   }
-
+  
 //   return true;
 // }
 
@@ -197,27 +197,105 @@
 // areThereDuplicates(1,2,3);
 
 /**=========================== */
-function averagePair (arr, num) {
-    let start = 0;
-    let end = arr.length - 1;
-    
-    while (start !== end) {
-        let av = (arr[start] + arr[end]) / 2;
-        
-        if (av === num) {
-        return true;
-        } else if (av > num) {
-        end --
-        } else {
-        start ++
-        }
-    }
-    
-    return false;
-    }
-  
-averagePair([1,3,3,5,6,7,10,12,19], 8);
-/**=========================== */
-function isSubsequence(s1, s2) {
+// function averagePair (arr, num) {
+//   let start = 0;
+//   let end = arr.length - 1;
 
+//   while (start !== end) {
+//     let av = (arr[start] + arr[end]) / 2;
+    
+//     if (av === num) {
+//       return true;
+//     } else if (av > num) {
+//       end --
+//     } else {
+//       start ++
+//     }
+//   }
+
+//   return false;
+// }
+
+// averagePair([1,3,3,5,6,7,10,12,19], 8);
+
+/**=========================== */
+// function isSubsequence(str1, str2) {
+//   if(str1.length === 0) return true
+//   if(str2.length === 0) return false
+//   if(str2[0] === str1[0]) return isSubsequence(str1.slice(1), str2.slice(1))  
+//   return isSubsequence(str1, str2.slice(1))
+// }
+
+// isSubsequence("hello", "hello world");
+/**=========================== */
+// function maxSubarraySum (arr, num) {
+//   if (num > arr.length - 1) return null;
+//   let maxSum = 0;
+//   let tempSum = 0;
+
+//   for (let i = 0; i < num; ++i) {
+//     tempSum += arr[i];
+//   }
+
+//   for (let i = num; i < arr.length; ++i) {
+//     tempSum = tempSum - arr[i - num] + arr[i];
+//     maxSum = Math.max(tempSum, maxSum);
+//   }
+
+//   return maxSum;
+// }
+
+// maxSubarraySum([1,2], 3);
+/**=========================== */
+// function minSubArrayLen(arr, num) {
+
+// }
+
+// minSubArrayLen([1,2], 3);
+
+/**=========================== */
+// function findLongestSubstring(str){
+//   let i = 0;
+//   let j = 1;
+
+//   while (i < str.length - 1) {
+//     console.log({a: str[i], b: str[j], i, j });
+//     if (str[i] !== str[j]) {
+//       j ++
+//     } else {
+//       i ++
+//     }
+//   }
+
+//   return i;
+// }
+
+// findLongestSubstring("abcdefav");
+
+/**=========================== */ 
+
+// const arr = [
+//   ['tang', 'phuoc', 'quang'],
+//   ['dang an', 'dang ia', 'dang nup'],
+//   ['o trong nha', 'o ngoai san', 'o tren nui', 'duoi gam cau']
+// ];
+
+// function wtf (arr) {
+//   let result = [];
+
+//   function helper (helperInput) {
+//     let f = helperInput[0];
+
+
+//     helperInput.spice(1);
+//   }
+//   helper(arr);
+//   return result;
+// }
+
+
+// pure recursion
+function collectOdds (arr) {
+  let newArr = [];
+  
 }
